@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wes Anderson movies</title>
+  </head>
+  <body>
+    <h1>Wes Anderson movies</h1>
+    <h3>Check the most popular Wes Anderson movies, and add your favourite movie!</h3>
+    <button type="button" id="button" onclick="shuffleMovies()">
+      Today's pick
+    </button>
+    <div id="movies"></div>
+    <h1>Enter your favourite movie</h1>
+    <div class="form">
+      <div class="movieForm">
+        <p>Title</p>
+        <input type="Title" id="title" />
+      </div>
+      <div class="movieForm">
+        <p>Rating</p>
+        <input type="Rating" id="rating" />
+      </div>
+      <div class="movieForm">
+        <p>Runtime</p>
+        <input type="Runtime" id="runtime" />
+      </div>
+      <div class="movieForm">
+        <p>Plot</p>
+        <input type="Plot" id="plot" />
+      </div>
+      <div class="movieForm">
+        <p>Cast</p>
+        <input type="Cast" id="cast" />
+      </div>
+      <div class="movieForm">
+        <p>Year</p>
+        <input type="Year" id="year" />
+      </div>
+      <button type="button" id="submitButton" onclick="addNewMovie()">Submit</button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</html>
